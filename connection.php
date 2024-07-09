@@ -7,6 +7,6 @@ if($con){
     echo "successfully connected";
 
 }
-mysqli_select_db($con, 'banking');
+mysqli_select_db($con, 'SteadfastBank');
 
 ?>

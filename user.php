@@ -23,7 +23,7 @@
 <?php
 include("connection.php");
 error_reporting(0);
-$query = "SELECT * FROM user";
+$query = "SELECT * FROM users";
 $data = mysqli_query($con,$query);
 $total = mysqli_num_rows($data);
 
